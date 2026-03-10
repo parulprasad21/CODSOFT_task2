@@ -160,20 +160,16 @@ margin-top:40px;
 
 @media(max-width:768px){
 
-/* HERO SECTION */
-
 .hero-container{
 flex-direction:column;
 align-items:center;
 text-align:center;
 }
 
+/* Hero Image */
+
 .hero-image{
 order:1;
-}
-
-.hero-text{
-order:2;
 }
 
 .hero-image img{
@@ -182,35 +178,42 @@ max-width:100%;
 margin-bottom:20px;
 }
 
-/* NAVBAR */
+/* Hero Text */
+
+.hero-text{
+order:2;
+}
+
+/* Navbar */
 
 nav{
-flex-direction:column;
-align-items:center;
+flex-wrap:wrap;
+justify-content:center;
 padding:15px;
 }
 
 nav ul{
-flex-direction:column;
-align-items:center;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
 width:100%;
 }
 
 nav ul li{
-margin:8px 0;
+margin:6px 10px;
 }
 
 nav ul li a{
-font-size:18px;
+font-size:16px;
 }
 
-/* SECTIONS */
+/* Sections */
 
 section{
 padding:50px 20px;
 }
 
-/* GRID CARDS */
+/* Cards */
 
 .grid{
 grid-template-columns:1fr;
